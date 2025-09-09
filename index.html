@@ -18,14 +18,18 @@
             
         }
         .img{
-            width: 100px;
             height: 100px;
-            background-color: rgb(55, 192, 149);
+            width: 100px;
+            background-color: rgb(167, 238, 216);
             border-radius: 15%;
-            border:10px solid rgb(97, 193, 202)
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
         }
         .right-corner{
          margin-left: auto;
+         padding-left: 150px;
         }
        span{
         font-weight: bold;
@@ -83,17 +87,27 @@
         align-items: center;
         justify-content: center;
        }
+       .seletores{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 70px;
+       }
 </style>
 <body>
     <section id="Cabeçalho">
         <div class="Barra">
-            <img src="./estrela.png"
-            style="
-            width: 100px;
-            height: 100px;">
+            <img class="img" src="./estrela.png"
+            >
             <div class="seletor">
                 <header>
                     <p class= "right-corner" style="font-size: 25px; font-style:oblique;">Perfil</p>
+                <div class="seletores">
+                    <a href="#início"> Início</a>
+                    <a href="#lembranças"> Lembranças</a>
+                    <a href="#pessoascoisassonhos"> Pessoas coisas ou Sonhos</a>
+                </div>
                 </header>
             </div>
         </div>
@@ -101,45 +115,57 @@
     <section id="início" style="height: 480px;">
         <div class="itens1">
              <div class="img">        </div>
-             <p style="font-size: 25px;"> <span>Nome:</span> Ana Sanches</p>
+             <p style="font-size: 25px;"> <span>Nome:</span> Ana C. Sanches</p>
              <p style="font-size: 25px;"> <span>Idade:</span> 15 anos </p>
              <p style="font-size: 25px;"> <span>Origem:</span> Eng. Beltrão - PR</p>
         </div>
     </section>
-    <section id="lembranças" style="height: 800px;">
+    <section id="lembranças" style="height: 1020px;">
        
         <P class="subtitulo"> Lembranças</P>
 
-        <div class="Elementos1">
+        <div class="Elementos1" style="height: 450px;">
 
-            <div class="img"></div>
+            <div> <img src="investidura.jpg"
+                 alt="Investidura"
+                 title="Investidura"
+                 height="155px"> </div>
             <p style="font-size: 20px;">Investidura de Coroinha em 2017.</p>
 
-            <div class="img"></div>
+            <div> <img src="aniversário.jpg"
+            alt="aniversário"
+           title="aniversário"
+          height="165px"> </div>
             <p style="font-size: 20px;">Aniversário de 6 anos em 2015.</p>
         </div>
 
         <div class="Elementos2">
 
-          <div class="img"></div>
+          <div> <img src="festa junina.jpg"
+        alt="Festa junina"
+    title="Festa Junina"
+height="175px"></div>
             <p style="font-size: 20px;">Festa Julina da escola.</p>
 
-            <div class="img"></div>
+            <div> <img src="apresentação balé.jpg"
+            alt="Apresentação de Balé"
+        title="Apresentação de Balé"
+    height="175px"></div>
             <p style="font-size: 20px;">Apresentação de balé em 2017</p>
 
         </div>
     </section>
-    <section id="pessoascoisassonhos" style="height: 830px;">
+    <section id="pessoascoisassonhos" style="height: 760px;">
         <P class="subtitulo"> Pessoas, coisas ou sonhos</P>
          
         <div class="blocos">
 
                <div class="img"></div>
-            <p class="etc">Pais</p>
-                <p class="texto">Meus pais são muito importantes para mim</p>
+            <p class="etc">1.</p>
+                <p class="texto">asdadadfjndajfda</p>
                 
                 <div class="img"></div>
-            <p class="etc"">2.</p>
+            <p class="etc">2.</p>
                 <p class="texto">asdadadfjndajfda</p>
 
               <div class="img"></div>
